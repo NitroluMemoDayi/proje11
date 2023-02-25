@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin:wght@200;300;400;500;600;700;800&family=Fira+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia+Sans:wght@100;200;300;400;500;600;700;800;900&family=Teko:wght@400;500;600;700&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+body{
+      padding-top: 50px;
+      font-family: Poppins;
+}
+.navbar a{
+      font-size: 1.5rem;
+}
+.navbar-brand{
+      font-family: "Fira Sans Condensed";
+      font-weight: 700;
+}
+.resimslider{
+      height: 700px;
+}
+.hakkimizda,.galeri{
+      background-color: #f2f2f2;
+}
+.ayrac{
+      border: none;
+      border-top: 3px solid #343a40;
+      max-width: 250px;
+      margin: 25px auto;
+}
+.igri{
+      color: #343a40;
+      position: relative;
+      top: -60px;
+      background-color: #f2f2f2;
+      font-size: 40px;
+      border: 10px solid #f2f2f2;
+}
+.ibeyaz{
+      color: #343a40;
+      position: relative;
+      top: -60px;
+      background-color: #fff;
+      font-size: 40px;
+      border: 10px solid #fff;  
+}
+.ekipcard>img{
+      transition: .5s;
+}
+.ekipcard>img:hover{
+      opacity: .8;
+      transition: .5s;
+}
+.figure{
+      transition: .5s;
+      opacity: .8;
+}
+.figure:hover{
+      opacity: 1;
+      transition: .5s;
+}
